@@ -1,0 +1,78 @@
+
+    1  /etc/sudoers
+    2  uname -a
+    3  uname -r
+    4  ls-l/etc/
+    5  etc/ sudoers
+    6  cls
+    7  clear
+    8  uname 
+    9  uname -r
+   10  /etc/passwd
+   11  /var/log/directory
+   12  /etc/sudoers
+   13  i config
+   14  if config;  pwd; ls; history; 
+   15  uname -r
+   16  hostname
+   17  /etc/sudoers
+   18  /var/log
+   19  cd/var/log
+   20  df -h
+   21  ffree -h
+   22  free -h
+   23  /etc/pwd
+   24  hostname -a
+   25  getent passwd
+   26  ping
+   27  systemctl status httpd
+   28  df -h
+   29  du -h
+   30  netstat -ln
+   31  netstat -p
+   32  netstat -r
+   33  netstat -an | grep ip
+   34  netstat -an | grep <ip>
+   35  netstat -an | grep port
+   36  netstat -a
+   37  netstat -at
+   38  netstat -6at
+   39  netstat -au
+   40  netstat -l
+   41  netstat |more
+   42  netstat putan | grep ip
+   43  history
+   44  ls -a
+   45  ls -lrt
+   46  cat -n anitha.txt
+   47  netstat |more
+   48  sleep 10s
+   49  jobs
+   50  bg %1
+   51  fg %3
+   52  jobs
+   53  jobs
+   54  ps -a
+   55  ps -e
+   56  ps -f
+   57  ps -u
+   58  jobs
+   59  history
+   60  vi file2.txt
+   61  cat file2.txt
+   62  touch file3.txt
+   63  cp file2.txt file3.txt
+   64  cp file2.txt file3.txt
+   65  cat file3.txt
+   66  awk '{print}'file3.txt 
+   67  awk '{print}' file3.txt 
+   68  awk -F " "'{print $2}' file3.txt 
+   69  awk -F " "'{print $2}' file3.txt 
+   70  history
+   71  sudo cat/etc/passwd
+   72  getent passwd
+   73  sleep 10s
+   74  bg %1
+   75  jobs
+   76  netstat -i
+   
