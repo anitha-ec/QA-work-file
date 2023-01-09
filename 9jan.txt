@@ -1,0 +1,72 @@
+[ec2-user@ip-172-31-11-200 ~]$ history
+    1  sudo amazon-linux-extras install java-openjdk11
+    2  sudo yum install java-1.8.0-openjdk
+    3  java -version
+    4  ls -a
+    5  sudo yum install awscli
+    6  sudo su – jenkins
+    7  aws configure
+    8  exit
+    9  ls -
+   10  ls- a
+   11  ls -a
+   12  ls -lh
+   13  touch file1
+   14  echo "welcome" >> file1
+   15  cat file1
+   16  touch file2
+   17  echo " devops" >> file2
+   18  cat file1 file2
+   19  cat > file3
+   20  top
+   21  jobs
+   22  du -h
+   23  cat file2 |rev
+   24  echo "linux" |rev
+   25  locate file1
+   26  touch filename {1..10}
+   27  ls ltr
+   28  ls -ltr
+   29  touch filename {1..10}.txt
+   30  ls -ltr
+   31  mkdir work
+   32  cd work
+   33  touch test
+   34  file1 >> test
+   35  file1 > test
+   36  whoami
+   37  hostname
+   38  echo "well done" >> file1.txt
+   39  cat file.txt
+   40  cat file1.txt
+   41  grep "done$" file1.txt
+   42  find -file1.txt
+   43  find. -file1.txt
+   44  find. -empty
+   45  find.-empty
+   46  date --date="next tuesday"
+   47  date --date="1 year"
+   48  date --date="5 sec ago"
+   49  date "+%D"
+   50  date "+%D%T"
+   51  date "+%D  %T"
+   52  date "+%y /%m %d"
+   53  date "+A %B %d %d %T %y"
+   54  date "%A %B %d %d %T %y"
+   55  date "+%A %B %d %d %T %y"
+   56  crontab -e
+   57  cat file2.txt
+   58  crontab -e
+   59  cat file3.txt
+   60  cd..
+   61  cd ..
+   62  cat file3.txt
+   63  crontab -e
+   64  cat file3.txt
+   65  curl _version
+   66  curl -version
+   67  ping
+   68  free
+   69  free -m
+   70  vmstat
+   71  /proc/meminfo
