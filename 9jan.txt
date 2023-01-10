@@ -70,3 +70,4 @@
    69  free -m
    70  vmstat
    71  /proc/meminfo
+   exit
