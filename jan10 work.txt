@@ -1,0 +1,125 @@
+git --version
+  2           mkdir test-repo
+  3          cd test-repo/
+  4           git init
+  5 touch test.py
+  6  gedit test.py
+  7  rm touch.py
+  8  rm test.py
+  9  vi test.py
+  10  git add test.py
+  11  git add .
+  12  git commit -m "first commit"
+  13  git config --global user.email "anitha.darshini24@gmail.com"
+  14  git config --global user.name "Anitha"
+  15  git commit -m "first commit"
+  16  git status
+  17   touch welcome.py
+  18  vi welcome.py
+  19  git add welcome.py
+  20  git status
+  21  git add .
+  22  git status
+  23  git config user.name "ani"
+  24  git config user.email "anitha.darshini24@gmail.com"
+  25   git branch
+  26  git branch feature
+  27  git status
+  28  git branch
+  29  git checkout feature
+  30  git branch
+  31  vi test .pi
+  32  cat test.py
+  33  vi test.pi
+  34  vi test.py
+  35  git add .
+  36  git commit -m "feature commit"
+  37  git checkout master
+  38  git merge feature
+  39   git branch -d feature
+  40  git checkout -b new
+  41  vi welcome.py
+  42  git add .
+  43  git commit -m " new "
+  44  git status
+  45  git checkout master
+  46  git mege new
+  47  git merge new
+  48  git status
+  49  git remote origin git@github.com:anitha-ec/QA-work-file.git
+  50  git remote add origin git@github.com:anitha-ec/QA-work-file.git
+  51  cd ..
+  52  mkdir git -remote
+  53  mkdir git-remote
+  54  git clone git@github.com:anitha-ec/QA-work-file.git
+  55  ls
+  56  git clone https://github.com/anitha-ec/QA-work-file.git
+  57  ls
+  58  mkdir git-remote
+  59  cd git-remote/
+  60  git clone https://github.com/anitha-ec/QA-work-file.git
+  61  ls
+  62  cd QA-work-file/
+  63  ls
+  64  git pull origin master
+  65  git pull origin main
+  66  ls
+  67  cat 9jan.txt
+  68  touch git1.py
+  69  vi git1.py
+  70  git add .
+  71  git add git1.py
+  72  git add .
+  73  git commit -m "remote"
+  74  git push origin master
+  75  git push origin main
+  76  git push origin main
+  77  git push origin main
+  78  touch stash .py
+  79  vi stash.py
+  80  git add stash.py
+  81  git add .
+  82  git staus
+  83  git status
+  84  git stash -u
+  85  git status
+  86  git stash list
+  87  git stash show
+  88  git stash apply
+  89  git status
+  90  cd
+  91  mkdir git-log
+  92  cd git-log/
+  93  git init
+  94  vi log.py
+  95  git add .
+  96  git commit -m "log"
+  97  git log
+  98  git log --author ="anitha"
+  99  vi log.py
+  100  git add .
+  101  git commit -m "last commit"
+  102  git log --oneline
+  103  git revert 4244bee
+  104  cat statsh.py
+  105  cat stash.py
+  106  cat log.py
+  107  vi log.py
+  108  git add .
+  109  git commit -m "last commit"
+  110  git log --oneline
+  111  git revert
+  112  git revert bb4c140
+  113  cat log.py
+  114  git revert HEAD
+  115  ls
+  116  cat log.py
+  117  git rebase master
+  118  git branch ece01
+  119  git checkout ece01
+  120  ls
+  121  vi log.py
+  122   git add .
+  123  git commit -m "rebase"
+  124  git rebase master
+  125  history
