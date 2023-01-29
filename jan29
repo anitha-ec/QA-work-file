@@ -1,0 +1,277 @@
+    1  exit
+    2  sudo chmod 400
+    3  sudo chmod 400 Docker-key.ppk
+    4  man sudo_root
+    5  ls -lrt
+    6  sudo apt update
+    7  pwd
+    8  sudo mkdir -p /etc/apt/keyrings
+    9  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   10  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+   11    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   12  sudo apt-get update
+   13  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+   14  sudo docker info
+   15  docker info
+   16  sudo groupadd docker
+   17  sudo usermod -aG docker $USER
+   18  en
+   19  env
+   20  echo $user
+   21  echo $username
+   22  echo $USER
+   23  sudo usermod -aG docker $USER
+   24  newgrp docker
+   25  exit
+   26  sudo docker info
+   27  docker info
+   28  sudo su-
+   29  sudo su -
+   30  echo $USER
+   31  pwd
+   32  ls
+   33  cd docker
+   34  env
+   35  echo $home
+   36  echo $HOME
+   37  pwd
+   38  docker images
+   39  exit
+   40  pwd
+   41  ps -ef
+   42  ps -ef| grep -i firewall
+   43  top
+   44  jobs
+   45  ps -ef| grep -i docker
+   46  ps
+   47  ps -e
+   48  ps -e |more
+   49  quit
+   50  ps -ef
+   51  ps -ef | less
+   52  ps aux
+   53  ps aux | more
+   54  ps aux | grep -i httpd
+   55  ps aux | grep httpd
+   56  systemctlstatus httpd
+   57  systemctl status httpd
+   58  systemctl status jenkins
+   59  systemctl status docker
+   60  ps -u
+   61  ps -u ubuntu
+   62  ps -u root
+   63  ps -u root | more
+   64  ps -g
+   65  ps -ejH | more
+   66  ps -ejH | docker
+   67  echo hello > f1
+   68  cat f1
+   69  echo "hi" | tee f2
+   70  echo $RANDOM
+   71  echo $UID
+   72  echo $LINENO
+   73  vi wordcount
+   74  wc -l wordcount
+   75  wc  wordcount
+   76  wc -L wordcount
+   77  history
+   78  ping www.google.com
+   79  ls
+   80  ls -a
+   81  ls -lh
+   82  mkdir dtest
+   83  cd dtest
+   84  touch f3
+   85  cat wordcount >>f3
+   86  cd..
+   87  rm dtest
+   88  rm dtest/
+   89  ls 
+   90  cat f3
+   91  ps -c
+   92  rm -d
+   93  rm --help
+   94  rm --dir
+   95  rm --dir dtest
+   96  rmdir 
+   97  rmdir dtest
+   98  cd..
+   99  cd ..
+  100  rmdir -d
+  101  rmdir dtest
+  102  rm -d
+  103  rm -r
+  104  rm -i dtest/*
+  105  ls
+  106  cat dtest
+  107  ls -lh
+  108  ls -lh docker
+  109  ls -lh wordcount
+  110  gzip wordcount
+  111  ls
+  112  ls -lh wordcount.gz
+  113  gunzip wordcount.gz
+  114  ls
+  115  ls -lh wordcount
+  116  hostname
+  117  hostnamectl sethostname anitha
+  118  hostnamectl set hostname anitha
+  119  sudo su
+  120  systemctl status sshd
+  121  systemctl status 
+  122  passwd
+  123  free
+  124  free -h
+  125  ls
+  126  date
+  127  at 10:53
+  128  sudo apt install at
+  129  at 10:53
+  130  date
+  131  cat -n wordcount
+  132  sort wordcount
+  133  sort -r wordcount
+  134  sed '1d' wordcount
+  135  set -x wordcount
+  136  history
+  137  history >>fa
+  138  cat fa
+  139  exit
+  140  pwd
+  141  docker run -p 8080:8080 -p 50000:50000 -v /your/home:/var/jenkins_home jenkins
+  142  sudo su
+  143  docker ino
+  144  docker info
+  145  sudo su -
+  146  mkdir Docker
+  147  cd Docker/
+  148  pwd
+  149  docker run -p 8080:8080 -p 50000:50000 -v /your/home:/var/jenkins_home jenkins
+  150  mkdir jenkins_home
+  151  cd ..
+  152  mkdir jenkins_home
+  153  cd jenkins_home/
+  154  pwd
+  155  docker run -p 8080:8080 -p 50000:50000 -v /home/ubuntu/jenkins_home:/ar/ jenkins_home jenkins/jenkins:lts
+  156  docker run -p 8080:8080 -p 50000:50000 -v /home/ubuntu/jenkins_home:/var/ jenkins_home jenkins/jenkins:lts
+  157  docker run -p 8080:8080 -p 50000:50000 -v /home/ubuntu/jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+  158  exit
+  159  pwd
+  160  docker info
+  161  echo $USER
+  162  docker images
+  163  docker pull ubuntu:latest
+  164  docker pull ubuntu
+  165  docker pull ubuntu:18.04
+  166  docker images
+  167  docker rmi e28a50f651f9 
+  168  docker imges
+  169  docker images
+  170  docker rmi 3385e3c0b235 6b7dfa7e8fdb 
+  171  docker imges
+  172  docker images
+  173  docker      
+  174  docker imges
+  175  docker images
+  176  docker rmi -f 3385e3c0b235  
+  177  docker images
+  178  docker pull ubuntu
+  179  docker pull jenkins
+  180  docker pull jenkins/jenkins:lts
+  181  docker images
+  182  docker pull alpine
+  183  docker images
+  184  $(
+  185  $(docker images -q)
+  186  (docker images -q)
+  187  docker rmi $(docker images -q)
+  188  docker images
+  189  ls
+  190  docker images\
+  191  docker images
+  192  docker pull alpine
+  193  docker pull jenkins
+  194  docker pull jenkins/jenkins:lts
+  195  netstat -t
+  196  docker images
+  197  docker tg jenkins/jenkins :lts anitha28:my_tag
+  198  docker tag jenkins/jenkins :lts anitha28:my_tag
+  199  docker tag jenkins/jenkins :lts anitha28/jenkins:my_tag
+  200  docker tag alpine:latest anitha28/jenkins:my_tag
+  201  docker images
+  202  docker login
+  203  docker tag alpine:latest anitha28/alpines:my_tag
+  204  docker images
+  205  docker rmi 042a816809aa  
+  206  docker rmi -f 042a816809aa  
+  207  docker imges
+  208  docker images
+  209  docker pull alpine
+  210  docker imges
+  211  docker images
+  212  docker tag alpine:latest anitha28/alpines:my_tag
+  213  docker images
+  214  docker push anitha28/alpines: my_tag 
+  215  docker push anitha28/jenkins: my_tag 
+  216  docker tag alpine:latest anitha28/jenkins:my-tag 
+  217  docker imges
+  218  docker images
+  219  docker push anitha28/jenkins:my_tag
+  220  docker push anitha28/jenkins:latest
+  221  docker push anitha28/jenkins:latest
+  222  docker images
+  223  docker ps 
+  224  docker container ls
+  225  docker container ls -a
+  226  docker ps -a
+  227  docker ps -aq
+  228  docker ps -a -q
+  229  docker rm $(docker ps -aq)
+  230  docker ps
+  231  docker run -it -d alpine /bin/sh
+  232  docker ps
+  233  docker rmf0844684d80c 
+  234  docker rm f0844684d80c 
+  235  docker stop f0844684d80c 
+  236  docker rm f0844684d80c 
+  237  docker run -it -d alpine /bin/sh
+  238  docker ps
+  239  docker rm $(docker stop b5c16dcafd89)
+  240  lsns
+  241  docker ps
+  242  docker ps -
+  243  docker ps -a
+  244  docker images
+  245  docker run -it -d ubuntu /bin/bash
+  246  docker ps -a
+  247  docker ps 
+  248  docker stop
+  249  d050430d5bbf 
+  250  docker stop d050430d5bbf 
+  251  docker ps
+  252  docker ps -a
+  253  docker ps -aq
+  254  docker run -it -d ubuntu /bin/bash
+  255  docker ps
+  256  docker ps -
+  257  docker ps -a
+  258  docker ps -q
+  259  docker ps -aq
+  260  docker stop d050430d5bbf
+  261  docker ps -a
+  262  docker ps -q
+  263  docker ps -a
+  264  docker ps --filter "status=exited"
+  265  docker ps --filter "status=exited" -q
+  266  docker images
+  267  docker ps
+  268  docker attach60cd39029983 
+  269  docker attach 60cd39029983 
+  270  docker ps
+  271  docker ps -
+  272  docker ps -a
+  273  exit
+  274  docker ps -a 
+  275  docker images
+  276  history
+  277  history >jan29
