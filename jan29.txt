@@ -1,0 +1,138 @@
+ pwd
+  141  docker run -p 8080:8080 -p 50000:50000 -v /your/home:/var/jenkins_home jenkins
+  142  sudo su
+  143  docker ino
+  144  docker info
+  145  sudo su -
+  146  mkdir Docker
+  147  cd Docker/
+  148  pwd
+  149  docker run -p 8080:8080 -p 50000:50000 -v /your/home:/var/jenkins_home jenkins
+  150  mkdir jenkins_home
+  151  cd ..
+  152  mkdir jenkins_home
+  153  cd jenkins_home/
+  154  pwd
+  155  docker run -p 8080:8080 -p 50000:50000 -v /home/ubuntu/jenkins_home:/ar/ jenkins_home jenkins/jenkins:lts
+  156  docker run -p 8080:8080 -p 50000:50000 -v /home/ubuntu/jenkins_home:/var/ jenkins_home jenkins/jenkins:lts
+  157  docker run -p 8080:8080 -p 50000:50000 -v /home/ubuntu/jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+  158  exit
+  159  pwd
+  160  docker info
+  161  echo $USER
+  162  docker images
+  163  docker pull ubuntu:latest
+  164  docker pull ubuntu
+  165  docker pull ubuntu:18.04
+  166  docker images
+  167  docker rmi e28a50f651f9
+  168  docker imges
+  169  docker images
+  170  docker rmi 3385e3c0b235 6b7dfa7e8fdb
+  171  docker imges
+  172  docker images
+  173  docker
+  174  docker imges
+  175  docker images
+  176  docker rmi -f 3385e3c0b235
+  177  docker images
+  178  docker pull ubuntu
+  179  docker pull jenkins
+  180  docker pull jenkins/jenkins:lts
+  181  docker images
+  182  docker pull alpine
+  183  docker images
+  184  $(
+  185  $(docker images -q)
+  186  (docker images -q)
+  187  docker rmi $(docker images -q)
+  188  docker images
+  189  ls
+  190  docker images\
+  191  docker images
+  192  docker pull alpine
+  193  docker pull jenkins
+  194  docker pull jenkins/jenkins:lts
+  195  netstat -t
+  196  docker images
+  197  docker tg jenkins/jenkins :lts anitha28:my_tag
+  198  docker tag jenkins/jenkins :lts anitha28:my_tag
+  199  docker tag jenkins/jenkins :lts anitha28/jenkins:my_tag
+  200  docker tag alpine:latest anitha28/jenkins:my_tag
+  201  docker images
+  202  docker login
+  203  docker tag alpine:latest anitha28/alpines:my_tag
+  204  docker images
+  205  docker rmi 042a816809aa
+  206  docker rmi -f 042a816809aa
+  207  docker imges
+  208  docker images
+  209  docker pull alpine
+  210  docker imges
+  211  docker images
+  212  docker tag alpine:latest anitha28/alpines:my_tag
+  213  docker images
+  214  docker push anitha28/alpines: my_tag
+  215  docker push anitha28/jenkins: my_tag
+  216  docker tag alpine:latest anitha28/jenkins:my-tag
+  217  docker imges
+  218  docker images
+  219  docker push anitha28/jenkins:my_tag
+  220  docker push anitha28/jenkins:latest
+  221  docker push anitha28/jenkins:latest
+  222  docker images
+  223  docker ps
+  224  docker container ls
+  225  docker container ls -a
+  226  docker ps -a
+  227  docker ps -aq
+  228  docker ps -a -q
+  229  docker rm $(docker ps -aq)
+  230  docker ps
+  231  docker run -it -d alpine /bin/sh
+  232  docker ps
+  233  docker rmf0844684d80c
+  234  docker rm f0844684d80c
+  235  docker stop f0844684d80c
+  236  docker rm f0844684d80c
+  237  docker run -it -d alpine /bin/sh
+  238  docker ps
+  239  docker rm $(docker stop b5c16dcafd89)
+  240  lsns
+  241  docker ps
+  242  docker ps -
+  243  docker ps -a
+  244  docker images
+  245  docker run -it -d ubuntu /bin/bash
+  246  docker ps -a
+  247  docker ps
+  248  docker stop
+  249  d050430d5bbf
+  250  docker stop d050430d5bbf
+  251  docker ps
+  252  docker ps -a
+  253  docker ps -aq
+  254  docker run -it -d ubuntu /bin/bash
+  255  docker ps
+  256  docker ps -
+  257  docker ps -a
+  258  docker ps -q
+  259  docker ps -aq
+  260  docker stop d050430d5bbf
+  261  docker ps -a
+  262  docker ps -q
+  263  docker ps -a
+  264  docker ps --filter "status=exited"
+  265  docker ps --filter "status=exited" -q
+  266  docker images
+  267  docker ps
+  268  docker attach60cd39029983
+  269  docker attach 60cd39029983
+  270  docker ps
+  271  docker ps -
+  272  docker ps -a
+  273  exit
+  274  docker ps -a
+  275  docker images
+  276  history
+  277  history >sunday29
