@@ -1,0 +1,86 @@
+  1  ls -a
+  2  cd ssh
+  3  .ssh
+  4  id_rsa.pub
+  5  exit
+  6  sudo yum install awscli
+  7  aws configure
+  8  pwd
+  9  ls
+  10  ls -a
+  11  ls -l
+  12  ls -lt
+  13  cat anitha.txt
+  14  cat script.sh
+  15  ls -a
+  16  cat ani.txt
+  17  cat test
+  18  tac test
+  19  cat file1.txt
+  20  cat file2.txt
+  21  head -3 file2.txt
+  22  head -3 file2.txt|tail 1
+  23  head -3 file2.txt|tail -1
+  24  tail -2
+  25  tail -2 file2.txt
+  26  tail -2 file2.txt | head -1
+  27  grep -i "newspaper" file2.txt
+  28  grep -i "news" file2.txt
+  29  grep -e "Today" -e "Week" file2.txt
+  30  grep -i -w "nation" file2.txt
+  31  grep -i -I "lines" *
+  32  grep -i -IR "lines" *
+  33  grep -i -c "lines" *
+  34  gre -i -v "newspaper" file2.txt
+  35  grep -i -v "newspaper" file2.txt
+  36  grep -v "newspaper" file2.txt
+  37  grep -V "newspaper" file2.txt
+  38  grep -v "newspaper" file2.txt
+  39  grep -i -v "newspaper" file2.txt
+  40  grep -i -v "news" file2.txt
+  41  telnet
+  42  df
+  43  du
+  44  ps
+  45  ps -u
+  46  ls *log
+  47  grep -v "linux" file3.txt
+  48  grep -v "Newspaper" file3.txt
+  49  grep -v "Newspaper" file2.txt
+  50  cat file2.txt
+  51  grep -i "today&" file2.txt
+  52  grep "Today&" file2.txt
+  53  grep -i "Today$" file2.txt
+  54  grep -i "Today$" file2.txt |grep -v "Today"
+  55  grep -i "Today$" file2.txt |grep -v "Today" file2.txt
+  56  grep -v "Today" file2.txt
+  57  sed  -n '3p' file2.txt
+  58  sed  -n '2p' file2.txt
+  59  sed  -n '1p' file2.txt
+  60  sed  -n '$p' file2.txt
+  61  awk -F " " '{print $1, $3}'
+  62  awk -F " " '{print $1, $3}' file2.txt
+  63  awk -F " " '{print $1, $3}' file2.txt|head -2
+  64  awk -F " " '{print $1, $3}' file2.txt
+  65  awk -F " " '{print $NF}'
+  66  awk -F " " '{print $NF}' file2.txt
+  67  awk -F " " '{print $NF-1}' file2.txt
+  68  awk -F " " '{print $(NF-1)}' file2.txt
+  69  sort file2.txt
+  70  sort -r file2.txt
+  71  cat -n file2.txt
+  72  sort file2.txt
+  73  tac file2.txt
+  74  cat file2.txt | tac
+  75  cat -n file2.txt | tac
+  76  history
+  77  history >> file4.txt
+  78  cat file4.txt
+  79  awk -F " " '{print $1, $3}' file2.txt
+  80  awk -F " " '{print $1, $3}' file2.txt | sed '1d'
+  81  awk -F " " '{print $1, $3}' file2.txt | sed '2d'
+  82  echo $shell
+  83  sudo su
+  84  history
+  85  cat file4.txt
+  86  history >> jan18.txt
