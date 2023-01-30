@@ -82,5 +82,4 @@
   82  echo $shell
   83  sudo su
   84  history
-  85  cat file4.txt
-  86  history >> jan18.txt
+  
